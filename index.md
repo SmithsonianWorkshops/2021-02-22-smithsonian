@@ -65,15 +65,10 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
-<strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.</strong>
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
+<strong>This workshop and its waitlist have both unfortunately sold out.<br/>
+You can go to <a href='https://datascience.si.edu/carpentries' target='_blank'>https://datascience.si.edu/carpentries</a> 
+and click the "Sign up for the Carpentries-announce mailing list" button to be alerted when future Smithsonian Carpentries
+workshops are announced.</strong>
 {% endif %}
 
 
